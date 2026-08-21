@@ -10,3 +10,7 @@ body {
     font-size: 32px;
     padding: 8px;
 }
+
+.description {
+    color: red;
+}

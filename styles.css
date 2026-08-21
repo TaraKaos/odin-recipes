@@ -11,10 +11,14 @@ body {
     padding: 8px;
 }
 
-.description {
-    color: red;
+.description, .ingredients, .steps {
+    color: purple;
 }
 
 .text {
-    color: white;
+    color: blue;
+}
+
+.ingredient, .step {
+    color: blue;
 }

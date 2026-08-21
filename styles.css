@@ -2,6 +2,11 @@ body {
     background-color: black;
 }
 
+.home {
+    font-size: 28px;
+    padding: 5px;
+}
+
 .page_title {
     color: purple;
 }

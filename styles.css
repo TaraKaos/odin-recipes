@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: rgb(113, 9, 211);
 }
 
 .home {
@@ -7,23 +7,41 @@ body {
     padding: 5px;
 }
 
+.page_title, .description, .ingredients, .steps, .recipe_link, .home {
+    color: black;
+}
+
+.description, .ingredients, .steps {
+    font-weight: bold;
+    font-size: 30px;
+}
+
 .page_title {
-    color: purple;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.text, .ingredient, .step {
+    font-size: 25px;
+    color:rgb(208, 190, 190);
+    -webkit-text-stroke: .5px black;
 }
 
 .recipe_link {
     font-size: 32px;
-    padding: 8px;
+    margin: 8px;
 }
 
-.description, .ingredients, .steps {
-    color: purple;
+.recipe_link:hover, .home:hover {
+    color: rgb(182, 16, 16);
+    font-weight: bold;
 }
 
-.text {
-    color: blue;
+img {
+    width: 400px;
+    height: auto;
 }
 
-.ingredient, .step {
-    color: blue;
+li {
+    padding: 5px;
 }

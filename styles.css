@@ -5,3 +5,8 @@ body {
 .page_title {
     color: purple;
 }
+
+.recipe_link {
+    font-size: 32px;
+    padding: 8px;
+}
